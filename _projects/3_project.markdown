@@ -1,25 +1,13 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Variability in DECAT
+description: Searching for variable stars in the Eta Car field
 img: /assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our group is working on images of the Eta Car field taken with DECam in the griz photometric system. Currently I'm involved in analyzing these data sets and developing a method to identify variable sources, extract the light curves and compute their periods. Hopefully this work will allow us to identify previously unknown variables in the field. Our team has also taken images of the DECaPS East field, although we have not started working on these (yet).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
