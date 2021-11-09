@@ -1,3 +1,4 @@
+% Encoding: UTF-8
 ---
 ---
 @unpublished{cepheids2021,
@@ -7,3 +8,5 @@
   year={2021},
   note={in preparation},
 }
+
+@Comment{jabref-meta: databaseType:bibtex;}
