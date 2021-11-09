@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Nicolas Rodriguez # the website title (if blank, full name will be used instead)
-first_name: Nicolas
+title: Nicolás Rodríguez-Segovia # the website title (if blank, full name will be used instead)
+first_name: Nicolás
 middle_name: A.
-last_name: Rodriguez-Segovia
+last_name: Rodríguez-Segovia
 email: n.rsegovia@adfa.edu.au
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -175,8 +175,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Rodriguez
-  first_name: [Nicolas, N.]
+  last_name: Rodríguez-Segovia
+  first_name: [Nicolás, N.]
 
   style: apa
   locale: en
