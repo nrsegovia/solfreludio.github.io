@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: My publications. This page will hopefully be filled as time goes by!
-years: [2021]
+description: My publications. This page might be outdated, for the latest records check out my <a href="https://orcid.org/0000-0002-0125-1472">ORCiD</a>.
+years: [2022, 2023]
 nav: true
 ---
 

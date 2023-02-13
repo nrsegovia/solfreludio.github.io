@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Variability in DECAT
-description: Searching for variable stars in the Eta Car field
+title: Variability with DECam
+description: Searching for variable stars in DECam data
 img: assets/img/7.jpg
 importance: 3
 category: work

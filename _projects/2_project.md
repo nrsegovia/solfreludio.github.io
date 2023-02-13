@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PhD - Compact WD binaries with COMPAS
-description: Research!
+title: PhD - Hot sdB stars
+description: Formation channels
 img: assets/img/3.jpg
 importance: 2
 category: work
