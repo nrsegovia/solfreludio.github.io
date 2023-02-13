@@ -4,7 +4,7 @@ title: PhD - Hot sdB stars
 description: Formation channels
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Work
 ---
 
 Details soon! Hopefully a mix of theoretical/computational and observational astrophysics! Yay!

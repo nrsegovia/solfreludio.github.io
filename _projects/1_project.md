@@ -4,7 +4,7 @@ title: Period Change Rates
 description: Analysis of period change rates in Large Magellanic Cloud Classical Cepheids
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Work
 ---
 
 This project started back on 2019 as an assignment for the 'Variable Stars' subject dictated by Prof. Marcio Catelan. I participated actively into data acquisition and analysis, which led me to continue the project as part of both 'Experimental Astrophysics' subject and my undergraduate thesis.

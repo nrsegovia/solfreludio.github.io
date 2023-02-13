@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: PhD student at <a href="https://www.unsw.adfa.edu.au/study/postgraduate-research/doctor-philosophy-phd">UNSW Canberra</a>. To the right, you can see me and <a href="Cheomseongdae (첨성대)">https://en.wikipedia.org/wiki/Cheomseongdae</a> in the background.
+description: PhD student at <a href="https://www.unsw.adfa.edu.au/study/postgraduate-research/doctor-philosophy-phd">UNSW Canberra</a>. To the right, you can see me and <a href="https://en.wikipedia.org/wiki/Cheomseongdae">Cheomseongdae (첨성대)</a> in the background.
 
 profile:
   align: right

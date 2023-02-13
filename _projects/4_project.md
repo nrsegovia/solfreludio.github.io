@@ -4,7 +4,7 @@ title: COMPAS Development
 description: another without an image
 img:
 importance: 3
-category: work
+category: Work
 ---
 
 Every project has a beautiful feature showcase page.

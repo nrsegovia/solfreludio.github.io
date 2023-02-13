@@ -4,7 +4,7 @@ title: Variability with DECam
 description: Searching for variable stars in DECam data
 img: assets/img/7.jpg
 importance: 3
-category: work
+category: Work
 ---
 
 Our group is working on images of the Eta Car field taken with DECam in the griz photometric system. Currently I'm involved in analyzing these data sets and developing a method to identify variable sources, extract the light curves and compute their periods. Hopefully this work will allow us to identify previously unknown variables in the field. Our team has also taken images of the DECaPS East field, although we have not started working on these (yet).
