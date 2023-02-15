@@ -2,7 +2,7 @@
 layout: page
 title: COMPAS Development
 description: another without an image
-img:
+img: assets/img/compas.png
 importance: 3
 category: Work
 ---

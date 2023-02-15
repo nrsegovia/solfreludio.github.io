@@ -2,7 +2,7 @@
 layout: page
 title: Period Change Rates
 description: Analysis of period change rates in Large Magellanic Cloud Classical Cepheids
-img: assets/img/12.jpg
+img: assets/img/cepheids.jpeg
 importance: 1
 category: Work
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Variability with DECam
 description: Searching for variable stars in DECam data
-img: assets/img/7.jpg
+img: assets/img/ddf.png
 importance: 3
 category: Work
 ---
