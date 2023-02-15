@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Updating the website
-date:   2023-02-15 12:00:00
+date:   2023-02-14 12:00:00
 description: Filling in the details
 tags: updates
 categories: general-posts
