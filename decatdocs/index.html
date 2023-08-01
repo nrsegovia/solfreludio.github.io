@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Nicolás Rodríguez-Segovia
+
+
+  | Docs
+
+</title>
+<meta name="description" content="Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌠</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/decatdocs/">
+
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://nrsegovia.github.io/">
+       Nicolás Rodríguez-Segovia
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+            <div class="toggle-container">
+              <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Docs</h1>
+    <p class="post-description">Stuff for DECAT data.</p>
+  </header>
+
+  <article>
+    <h3 id="general-considerations">General Considerations</h3>
+
+<hr>
+
+<ul>
+  <li>Photometry has been processed using <em>photpipe</em>, which in turn uses <strong>DOPHOT</strong> to compute all the relevant quantities.</li>
+  <li>Calibration catalogs were built using <a href="http://decaps.skymaps.info/oldwebsite/index.html" target="_blank" rel="noopener noreferrer">DECaPS1</a> band-merged catalogs, where we also applied the offsets mentioned in the documentation. For reference:</li>
+</ul>
+
+<blockquote>
+  <p>To shift the DECaPS magnitudes to the <a href="https://ui.adsabs.harvard.edu/abs/2015ApJ...815..117S/abstract" target="_blank" rel="noopener noreferrer">Scolnic et al. (2015)</a> absolute calibration, offsets of 0.020, 0.033, 0.024, 0.028, and 0.011 mag must be added to the DECaPS grizY magnitudes, respectively.</p>
+</blockquote>
+
+<p>This step was necessary as we were using archival data provided by Armin Rest as well, which also had the offsets incorporated.</p>
+
+<ul>
+  <li>CCD numbering goes up to 61, as one CCD is <a href="https://noirlab.edu/science/programs/ctio/instruments/Dark-Energy-Camera/Status-DECam-CCDs" target="_blank" rel="noopener noreferrer">not working</a>.</li>
+  <li>For each field (eta Car and DECaPS East), each CCD has a corresponding directory. Then, inside each directory, there are files with names realted to their corresponding band, date and exposure number. Example: For band <em>g</em> of CCD 5 in the DECaPS East field, you would browse the <code class="language-plaintext highlighter-rouge">5/</code> directory within the respective <code class="language-plaintext highlighter-rouge">tar.gz</code> file (<code class="language-plaintext highlighter-rouge">decaps_east1-9.tar.gz</code>). Then, all <em>g</em> band observations would follow the pattern <code class="language-plaintext highlighter-rouge">5/decaps_east.g.DATE.EXPNUM_1.sw.dcmp</code>. The same convention works for the <code class="language-plaintext highlighter-rouge">eta_car</code> field and the other bands.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">.dcmp</code> files are <code class="language-plaintext highlighter-rouge">FITS</code> files, so you can read them accordingly.</li>
+  <li>Columns within the <code class="language-plaintext highlighter-rouge">.dcmp</code> files are defined as follows, according to the <em>photpipe</em> <a href="https://photpipe-docs.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">documentation</a>:</li>
+</ul>
+
+<hr>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>COLTBL1 = 'Xpos              ' / X position
+
+COLTBL2 = 'Ypos              ' / Y position
+
+COLTBL3 = 'M                 ' / PSF fitted instrumental magnitude (m=-2.5*log10(flux))
+
+COLTBL4 = 'dM                ' / Error in M
+
+COLTBL5 = 'flux              ' / flux in counts
+
+COLTBL6 = 'dflux             ' / error in flux
+
+COLTBL7 = 'type              ' / Type of object, as defined by dophot (1=stellar, 2=extended, 3=double star, 7=low S/N thus less free parameter fit, everything else is bad)
+
+COLTBL8 = 'peakflux          ' / peakflux of fit
+
+COLTBL9 = 'sigx              ' / sigx of fit, as defined by dophot
+
+COLTBL10= 'sigxy             ' / sigxy of fit, as defined by dophot
+
+COLTBL11= 'sigy              ' / sigy of fit, as defined by dophot
+
+COLTBL12= 'sky               ' /
+
+COLTBL13= 'chisqr            ' / chisqr of object
+
+COLTBL14= 'class             ' / Classification of object, as defined by Sextra
+
+COLTBL15= 'FWHM1             ' / FWHM along minor axis
+
+COLTBL16= 'FWHM2             ' / FWHM along major axis
+
+COLTBL17= 'FWHM              ' / FWHM
+
+COLTBL18= 'angle             ' / Position angle
+
+COLTBL19= 'extendedness      ' / Extendedness parameter (dophot)
+
+COLTBL20= 'flag              ' / flags set by cleanim (hexadecimal), 0x1:at least 1 pixel within aperture of size defined by CMP_APERTURESIZE*FWHM, 0x8: central pixel of fit is masked
+
+COLTBL21= 'mask              ' / masks within aperture: all masks from the mask file within the aperture are 'or'ed.
+
+COLTBL22= 'Nmask             ' / # masked pixels within aperture of size defined by CMP_APERTURESIZE*FWHM
+
+COLTBL23= 'RA                ' / RA of object in deg (this was added by Will and Brian, but is not used anymore and set to 0)
+
+COLTBL24= 'Dec               ' / Dec of object in deg (this was added by Will and Brian, but is not used anymore and set to 0)
+</code></pre></div></div>
+<p>As you can probably notice, the coordinates are not included, but can be computed using the WCS information in the header and the X/Y pixel positions.</p>
+
+<hr>
+
+<ul>
+  <li>If you are interested in the specific description of each <em>DOtype</em> (<code class="language-plaintext highlighter-rouge">COLTBL7 = 'type</code> in the previous table), you can check the following, which corresponds to Appendix C of the <a href="https://github.com/M1TDoPHOT/DoPHOT_C/tree/master/manual4.0" target="_blank" rel="noopener noreferrer">DoPHOT Manual</a>:</li>
+</ul>
+
+<hr>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+Type 1:  A 'perfect' star. Was used in computing weighted mean shape
+         parameters for stars.
+
+Type 2:  Object is not as peaked as a star, and has been interpreted
+         to be a 'galaxy'. Shape parameters were calculated specifically
+         for this object.
+
+Type 3:  An object found to be not as peaked as a single star was
+         interpreted to be two very close stars. This is one component
+         of such a close pair. Final fit to this component used mean shape
+         parameters for single star.
+
+Type 4:  Failed to converge on a 4-parameter fit using mean single
+         star shape. Photometry is extremely unreliable.
+
+Type 5:  Not enough points with adequate S/N could be found around this
+         object while attempting a 7-parameter fit to determine shape.
+         Indicates a problem with the local environment, although a
+         4-parameter fit with mean star shape succeeded. Photometry is
+         suspect, and this may not be a bona-fide star.
+
+Type 6:  Too few points with adequate S/N to do even a 4-parameter fit
+         with mean star shapes. Object NOT subtracted from image.
+
+Type 7:  Object was too faint to attempt a 7-parameter fit. No object
+         classification could be done, so it might be a faint galaxy
+         or two closely spaced stars. Photometry is OK (from successful
+         4-parameter fit with mean shapes) provided the
+         object is really a star.
+
+Type 8:  These are obliterated regions due to data saturation or
+         identification of cosmic rays.
+
+Type 9:  If an attempt to determine the shape of an object fails to
+         converge, it is classified as object type 9.
+         Photometry is unreliable.
+</code></pre></div></div>
+
+<ul>
+  <li>When constructing light curves, you can get the necessary information from the header (i.e., <code class="language-plaintext highlighter-rouge">MJD</code> and exposure times).</li>
+</ul>
+
+<h3 id="file-access">File Access</h3>
+
+<hr>
+<ul>
+  <li>
+<strong>Image access</strong>: head to the <a href="https://astroarchive.noirlab.edu/portal/search/" target="_blank" rel="noopener noreferrer">NOIRLab Data Archive search portal</a> and use <code class="language-plaintext highlighter-rouge">2021A-0921</code> as the Program Number. From there, on the categories available on the left-hand side you should select <code class="language-plaintext highlighter-rouge">Product Type -&gt; image</code> and <code class="language-plaintext highlighter-rouge">Process Type -&gt; instcal</code>. To separate between fields, go back to the portal and use either <code class="language-plaintext highlighter-rouge">(270.889, -29.530)</code> (DECaPS East), or <code class="language-plaintext highlighter-rouge">(161.262, -59.684)</code> (eta Car) as your <code class="language-plaintext highlighter-rouge">(RA, Dec)</code>.</li>
+</ul>
+
+<h3 id="known-issues">Known Issues</h3>
+
+<hr>
+<p>Besides the absence of one CCD, there are several problems that we have found while working with the data:</p>
+
+<ul>
+  <li>Worse quality of the first night images of the <code class="language-plaintext highlighter-rouge">DECaPS East</code> field. This can be seen both in the final PSF photometry results as an increase in the number of <code class="language-plaintext highlighter-rouge">DOtype == 3</code> sources, as well as in the images themselves since the entire field looks blurry and some stars seem to be duplicated. Thus, caution is recommended when interpreting occasional spikes in brightness during the first night for some sources. A frame-by-frame analysis shows that special care is needed when dealing with the following frame numbers (<code class="language-plaintext highlighter-rouge">EXPNUM</code>): <code class="language-plaintext highlighter-rouge">1004881,1004882,1005155,1005163,1005239,1005248,1005267,1005268,1005269,1005286,1005287,1005298</code>.</li>
+  <li>CCD 27 of the <code class="language-plaintext highlighter-rouge">DECaPS East</code> field shows a moving object within the FoV, so at times this affects the photometry of known objects. The full path of the object has not been determined yet, therefore it is possible that other CCDs are affected as well.</li>
+  <li>There was a problem with the pointing for the <code class="language-plaintext highlighter-rouge">eta_car</code> field, so a few images have a different pointing and were compressed in a different file (containing <code class="language-plaintext highlighter-rouge">bad</code> in its filename for the bad pointing).</li>
+  <li>The <code class="language-plaintext highlighter-rouge">DECaPS East</code> field is really crowded, so crossmatches between different images of the same band should be done with care. We have found that <code class="language-plaintext highlighter-rouge">0.5</code> arcseconds usually works well.</li>
+</ul>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2023 Nicolás A. Rodríguez-Segovia.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+
+    
+    
+    Last updated: August 01, 2023.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+  
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  
+
+
+
+
+
+</html>

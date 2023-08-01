@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://nrsegovia.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Nicolás Rodríguez-Segovia
 
 
-  | Page not found
+  | PhD - Hot sdB stars
 
 </title>
 <meta name="description" content="Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌠</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/404.html">
+<link rel="canonical" href="/projects/sdbs/">
 
 
 <!-- Dark Mode -->
@@ -188,12 +188,29 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">PhD - Hot sdB stars</h1>
+    <p class="post-description">Formation channels</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://nrsegovia.github.io/">here</a>.</p>
+    <p>Hot sub-dwarf stars of spectroscopic B class (sdB) are core helium burning stars located at the blue end of the horizontal branch in the Hertzsprung-Russell diagram (see e.g. <a href="https://ui.adsabs.harvard.edu/abs/2009ARA%26A..47..211H/abstract" target="_blank" rel="noopener noreferrer">Heber, 2009</a>). Amongst them, some present pulsations, which makes them important sources for asteroseismology. Similarly, it is theorized that sdBs may play a role in <a href="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095407472" target="_blank" rel="noopener noreferrer">AM CVn</a> systems (which are expected gravitational wave sources) as the donor could become an sdB during its evolution. Finally, they are proposed as progenitors of the rare and recently discovered blue large amplitude pulsator (BLAP, <a href="https://www.nature.com/articles/s41550-017-0166" target="_blank" rel="noopener noreferrer">Pietrukowicz et al., 2017</a>) class of variable stars. However, one of the most puzzling points of sdB stars is their origin. Scenarios proposed include both single and binary evolution, with the latter being widely accepted as the most likely formation path, considering observational constraints such as the period distribution of observed binaries where a member is an sdB star. This, in turn, makes them valuable for the study of interacting binary stars, as sdBs are thought to be formed thanks to <a href="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095627543" target="_blank" rel="noopener noreferrer">common envelope</a>, stable <a href="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100139245" target="_blank" rel="noopener noreferrer">mass transfer</a> or a combination of these episodes.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+<img class="img-fluid rounded z-depth-1" src="/assets/resized/sdbs-800x719.png" srcset="    /assets/resized/sdbs-480x431.png 480w,    /assets/resized/sdbs-800x719.png 800w,/ assets/img/sdbs.png 934w" title="Evolution paths">
+
+    </div>
+</div>
+<div class="caption">
+    Taken from <a href="https://ui.adsabs.harvard.edu/abs/2008ASPC..392...15P/abstract" target="_blank" rel="noopener noreferrer">Podsiadlowski et al. 2008</a>. Three of the main formation scenarios are shown. Note that both the process and final results are different in each case.
+</div>
+
+<p>My research involves analyzing the formation of sdBs by using a rapid binary population synthesis code, <a href="https://github.com/TeamCOMPAS/COMPAS" target="_blank" rel="noopener noreferrer">COMPAS</a> (of which <a href="https://solfreludio.github.io/projects/compas/" target="_blank" rel="noopener noreferrer">I’m also a developer of</a>). Changing the initial parameters of the simulated population allows me to evaluate the impact of these on the total number of sdB-like stars produced, as well as the relative numbers between different formation pathways. While these numbers are not an exact prediction of what we would expect in nature, they are understood as the likelihood of a certain number of evolution scenarios under a given initial configuration.</p>
+
+<p>One of the most recent developments in my research is the possibility to ignite helium before reaching the expected core mass at ignition during the canonical helium flash, which has been explored in previous works (see <a href="https://ui.adsabs.harvard.edu/abs/1996ApJ...466..359D/abstract" target="_blank" rel="noopener noreferrer">D’Cruz et al. 1996</a> and <a href="https://ui.adsabs.harvard.edu/abs/2002MNRAS.336..449H/abstract" target="_blank" rel="noopener noreferrer">Han et al. 2002</a>). I have revisited this problem with simulations in <a href="https://docs.mesastar.org/en/release-r22.11.1/" target="_blank" rel="noopener noreferrer">Modules for Experiments in Stellar Astrophysics (MESA)</a>. Different approaches give different numbers for the final amount of sdB candidates, although it is clear that some empirical results are only recovered if the ignition below canonical helium flash core mass is allowed. No other variation of the parameters (within the explored configurations) creates a similar effect (e.g. <a href="https://ui.adsabs.harvard.edu/abs/2012ApJ...746..186C/abstract" target="_blank" rel="noopener noreferrer">Clausen et al. 2012</a>).</p>
 
   </article>
 
